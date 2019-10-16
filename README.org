@@ -9,49 +9,49 @@ HID. There are also other tweaks and tricks needed.
 
 Currently rules are included for these devices.
 
-*** Ledger
-
-https://github.com/LedgerHQ/udev-rules
-
-*** NitroKey
-
-https://github.com/Nitrokey/libnitrokey/blob/master/data/41-nitrokey.rules
-
-*** LogicTech
-
-?
-
-*** OnlyKey
-
-https://github.com/trustcrypto/trustcrypto.github.io/blob/master/49-onlykey.rules
-
-*** Mooltipass
-
-?
-
 *** Android
 
 https://github.com/M0Rf30/android-udev-rules
 
-*** Trezor
+*** Argyll
 
-https://github.com/trezor/trezor-common/blob/master/udev/51-trezor.rules
-
-*** Sane
-
-?
-
-*** KeepKey
-
-https://github.com/keepkey/udev-rules
+https://github.com/beku/Argyll-Releases/blob/master/usb/55-Argyll.rules
 
 *** DigitalBitbox
 
 https://github.com/achow101/hardware-wallet-interface/tree/master/udev
 
-*** Argyll
+*** KeepKey
 
-https://github.com/beku/Argyll-Releases/blob/master/usb/55-Argyll.rules
+https://github.com/keepkey/udev-rules
+
+*** Ledger
+
+https://github.com/LedgerHQ/udev-rules
+
+*** LogicTech
+
+?
+
+*** Mooltipass
+
+?
+
+*** NitroKey
+
+https://github.com/Nitrokey/libnitrokey/blob/master/data/41-nitrokey.rules
+
+*** OnlyKey
+
+https://github.com/trustcrypto/trustcrypto.github.io/blob/master/49-onlykey.rules
+
+*** Sane
+
+?
+
+*** Trezor
+
+https://github.com/trezor/trezor-common/blob/master/udev/51-trezor.rules
 
 *** YubiKey
 
