@@ -1,0 +1,65 @@
+* extra-udev-rules
+
+A collection of dependency-free udev rules, required to use some
+devices on Linux. Most of these rules are adding “udev-acl” and
+“uaccess” to each device so that a user can interact with them via
+HID. There are also other tweaks and tricks needed.
+
+** Supported devices
+
+Currently rules are included for these devices.
+
+*** Ledger
+
+https://github.com/LedgerHQ/udev-rules
+
+*** NitroKey
+
+https://github.com/Nitrokey/libnitrokey/blob/master/data/41-nitrokey.rules
+
+*** LogicTech
+
+?
+
+*** OnlyKey
+
+https://github.com/trustcrypto/trustcrypto.github.io/blob/master/49-onlykey.rules
+
+*** Mooltipass
+
+?
+
+*** Android
+
+https://github.com/M0Rf30/android-udev-rules
+
+*** Trezor
+
+https://github.com/trezor/trezor-common/blob/master/udev/51-trezor.rules
+
+*** Sane
+
+?
+
+*** KeepKey
+
+https://github.com/keepkey/udev-rules
+
+*** DigitalBitbox
+
+https://github.com/achow101/hardware-wallet-interface/tree/master/udev
+
+*** Argyll
+
+https://github.com/beku/Argyll-Releases/blob/master/usb/55-Argyll.rules
+
+*** YubiKey
+
+https://github.com/Yubico/yubikey-personalization
+
+
+** License
+
+License is different for each rules included. Additions made in this
+repo should be licensed under MIT, unless it conflicts with the
+license of the respective rule.

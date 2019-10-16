@@ -1,0 +1,6 @@
+# probably not needed:
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="d13e", ATTRS{idProduct}=="cc10", TAG+="uaccess", TAG+="udev-acl"
+
+# required:
+# from <https://github.com/signal11/hidapi/blob/master/udev/99-hid.rules>
+KERNEL=="hidraw*", ATTRS{idVendor}=="d13e", ATTRS{idProduct}=="cc10", TAG+="uaccess", TAG+="udev-acl"
